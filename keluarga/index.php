@@ -32,8 +32,10 @@
                     <td class="tengah"><?php echo $data['NIK']; ?></td>
                     <td><?php echo $data['NAMA_KEPALA_KELUARGA']; ?></td>
                     <td class="tengah">
-                        <a style="margin:0 5px 0 20px;" class="btn btn-primary" type="submit" href="edit.php?NIK=<?php echo $data['NIK']; ?>">Edit</a> 
-                        <a style="margin:0 20px 0 5px;" class="btn btn-danger" type="submit" href="../crud/keluarga/delete.php?NIK=<?php echo $data['NIK']; ?>">Hapus</a>					
+                        <a style="margin:0 5px 0 20px;" class="btn btn-primary" type="submit" href="edit.php?NIK=<?php echo $data['NIK']; ?>">Edit</a> 				
+                    </td>
+                    <td class="tengah">
+                        <a style="margin:0 20px 0 5px;" class="btn btn-danger" type="submit" href="../crud/keluarga/delete.php?NIK=<?php echo $data['NIK']; ?>">Hapus</a>	
                     </td>
                 </tr>
             <?php }} ?>
