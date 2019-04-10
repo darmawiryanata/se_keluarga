@@ -11,20 +11,20 @@
 ?>
 <div class="container card uper">
     <div class="card-header">
-        Edit <?php echo $data['NAMA_KEPALA_KELUARGA'] ?>
+        Ubah Data <?php echo $data['NAMA_KEPALA_KELUARGA'] ?>
     </div>
     <div class="card-body">
         <form method="post" action="../crud/keluarga/edit.php">
             <div class="form-group">
                 <label for="nik">NIK :</label>
                 <input type="hidden" name="NIK" value="<?php echo $data['NIK'] ?>">
-                <input type="number" name="NIKBARU" value="<?php echo $data['NIK'] ?>">
+                <input type="number" class="form-control" name="NIKBARU" value="<?php echo $data['NIK'] ?>">
             </div>
             <div class="form-group">
                 <label for="nama">Nama Kepala Keluarga :</label>
-                <td><input type="text" name="NAMA_KEPALA_KELUARGA" value="<?php echo $data['NAMA_KEPALA_KELUARGA'] ?>"></td>
+                <td><input type="text" class="form-control" name="NAMA_KEPALA_KELUARGA" value="<?php echo $data['NAMA_KEPALA_KELUARGA'] ?>"></td>
             </div>
-            <button type="submit" class="btn btn-primary">Add</button>
+            <button type="submit" class="btn btn-primary">Ubah</button>
         </form>
         <?php } ?>
     </div>

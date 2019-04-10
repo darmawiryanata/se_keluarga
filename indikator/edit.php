@@ -11,7 +11,7 @@
 ?>
 <div class="container card uper">
     <div class="card-header">
-        Edit, <?php echo $data['NAMA_KEPALA_KELUARGA'] ?>
+        Ubah Data <?php echo $data['NAMA_KEPALA_KELUARGA'] ?>
     </div>
     <div class="card-body">
         <form method="post" action="../crud/indikator/edit.php">
@@ -30,7 +30,7 @@
                 <label for="job">Pekerjaan Kepala Keluarga :</label>
                 <input type="text" class="form-control" name="PEKERJAAN_KEPALA_KELUARGA" value="<?php echo $data['PEKERJAAN_KEPALA_KELUARGA'] ?>" required/>
             </div>
-            <button type="submit" class="btn btn-primary">Edit</button>
+            <button type="submit" class="btn btn-primary">Ubah</button>
         </form>
         <?php } ?>
     </div>

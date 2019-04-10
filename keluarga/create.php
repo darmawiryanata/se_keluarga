@@ -2,7 +2,7 @@
 <?php include '../layout/header.php';?>
 <div class="container card uper">
   <div class="card-header">
-    Add
+    Tambah Data Keluarga
   </div>
   <div class="card-body">
       <form method="post" action="../crud/keluarga/create.php">
@@ -14,7 +14,7 @@
               <label for="nama">Nama Kepala Keluarga :</label>
               <input type="text" class="form-control" name="NAMA_KEPALA_KELUARGA"/>
           </div>
-          <button type="submit" class="btn btn-primary">Add</button>
+          <button type="submit" class="btn btn-primary">Tambah</button>
       </form>
   </div>
 </div>

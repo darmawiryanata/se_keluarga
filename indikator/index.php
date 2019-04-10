@@ -36,7 +36,7 @@
                     <td class="tengah"><?php echo $data['JUMLAH_ANGGOTA_KELUARGA']; ?></td>
                     <td class="tengah"><?php echo $data['PEKERJAAN_KEPALA_KELUARGA']; ?></td>
                     <td class="tengah">
-                        <a style="margin:0 5px 0 20px;" class="btn btn-primary" type="submit" href="edit.php?ID=<?php echo $data['ID']; ?>">Edit</a> 				
+                        <a style="margin:0 5px 0 20px;" class="btn btn-primary" type="submit" href="edit.php?ID=<?php echo $data['ID']; ?>">Ubah</a> 				
                     </td>
                     <td class="tengah">
                         <a style="margin:0 20px 0 5px;" class="btn btn-danger" type="submit" href="../crud/indikator/delete.php?ID=<?php echo $data['ID']; ?>">Hapus</a>	

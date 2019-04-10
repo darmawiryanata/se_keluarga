@@ -2,7 +2,7 @@
 <?php include '../layout/header.php';?>
 <div class="container card uper">
   <div class="card-header">
-    Add
+    Tambah Data Indikator
   </div>
   <div class="card-body">
       <form method="post" action="../crud/indikator/create.php">
@@ -32,7 +32,7 @@
               <label for="job">Pekerjaan Kepala Keluarga :</label>
               <input type="text" class="form-control" name="PEKERJAAN_KEPALA_KELUARGA" required/>
           </div>
-          <button type="submit" class="btn btn-primary">Add</button>
+          <button type="submit" class="btn btn-primary">Tambah</button>
       </form>
   </div>
 </div>
